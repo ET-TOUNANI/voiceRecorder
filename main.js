@@ -29,13 +29,31 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "cv Hmdlh Onta ?";
       texts.appendChild(p);
     }
+    if (text.includes("where are you now ?")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "ana 3andi presontation ta3 English db d3i m3a khok ";
+      texts.appendChild(p);
+    }
+    if (text.includes("whats do you want to tell all this student ?")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "lah inaj7kom kamlin a khoty 9olo Amiin ";
+      texts.appendChild(p);
+    }
+    if (text.includes("okay goodby")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "beslama 3likom safi saf9o rah salat presontation ! ";
+      texts.appendChild(p);
+    }
     if (
       text.includes("what's your name") ||
       text.includes("what is your name")
     ) {
       p = document.createElement("p");
       p.classList.add("replay");
-      p.innerText = "Ana Abderrahmane wnta ?";
+      p.innerText = "machi choghlak ! ";
       texts.appendChild(p);
     }
     if (text.includes("open my YouTube")) {
