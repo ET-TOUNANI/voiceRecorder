@@ -29,19 +29,19 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "cv Hmdlh Onta ?";
       texts.appendChild(p);
     }
-    if (text.includes("where are you now ?")) {
+    if (text.includes("where are you now")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "ana 3andi presontation ta3 English db d3i m3a khok ";
       texts.appendChild(p);
     }
-    if (text.includes("whats do you want to tell all this student ?")) {
+    if (text.includes("what do you want to tell all this student")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "lah inaj7kom kamlin a khoty 9olo Amiin ";
       texts.appendChild(p);
     }
-    if (text.includes("okay goodby")) {
+    if (text.includes("goodbye")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "beslama 3likom safi saf9o rah salat presontation ! ";
