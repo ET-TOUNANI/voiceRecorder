@@ -35,7 +35,7 @@ recognition.addEventListener("result", (e) => {
       p.innerText = "ana 3andi presontation ta3 English db d3i m3a khok ";
       texts.appendChild(p);
     }
-    if (text.includes("what do you want to tell all this student")) {
+    if (text.includes("student") || text.includes("what do you want to tell all this student")) {
       p = document.createElement("p");
       p.classList.add("replay");
       p.innerText = "lah inaj7kom kamlin a khoty 9olo Amiin ";
@@ -83,11 +83,3 @@ recognition.addEventListener("result", (e) => {
     p = document.createElement("p");
   }
 });
-
-
-// recognition.addEventListener("end", () => {
-//   recognition.start();
-// });
-
-
-
